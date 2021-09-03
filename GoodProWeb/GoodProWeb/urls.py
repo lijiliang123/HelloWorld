@@ -21,5 +21,6 @@ from . import views
 urlpatterns = [
     # path('admin/', admin.site.urls),
     path('test/', views.test),
+    path('date/', views.date),
     # url(r'^$', views.test),
 ]
